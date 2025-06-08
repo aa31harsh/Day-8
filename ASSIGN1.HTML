@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Check Number</title>
+</head>
+<body>
+  <script>
+    let input = prompt("Enter a number:");
+    let number = parseFloat(input);
+
+    if (isNaN(number)) {
+      document.write("Please enter a valid number.");
+    } else if (number > 0) {
+      document.write("The number is Positive.");
+    } else if (number < 0) {
+      document.write("The number is Negative.");
+    } else {
+      document.write("The number is Zero.");
+    }
+  </script>
+</body>
+</html>
